@@ -14,9 +14,13 @@ class Home extends React.Component{
         <img className="ui center aligned bannerimage" src={homepageimage} alt="not found"/>
         
         <div>
+        <div className="ui containergreypage">
         <div className="sub heading">
         Program Locations 
         </div>
+            
+        </div>
+        
             
         <Systematicchange/>
         </div>

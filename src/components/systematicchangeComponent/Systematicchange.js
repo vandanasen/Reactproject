@@ -14,7 +14,7 @@ class Systematicchange extends React.Component{
     
     
     
-    <div className="ui containergreypage" >
+    <div className="ui containerpage" >
     <h3 className="ui header">Be A part of Systematic Change</h3>
     <img className="ui image" src={rectangle758} alt="not found"/>
     

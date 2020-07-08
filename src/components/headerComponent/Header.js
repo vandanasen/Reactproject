@@ -1,6 +1,7 @@
 import React from 'react';
 import{Link} from 'react-router-dom';
 import WCTDlogo from './WCTDlogo.png';
+import './Header.css';
 
 
 class Header extends React.Component{

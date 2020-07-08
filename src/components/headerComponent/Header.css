@@ -1,0 +1,10 @@
+.ui.header
+{
+   margin-top:70px;
+   color:white; 
+   font-family:'Montserrat',sans-serif;
+}
+
+.ui.secondary.pointing.menu.item{
+margin-left: 85px;
+}

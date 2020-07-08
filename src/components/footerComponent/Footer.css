@@ -1,0 +1,46 @@
+.ui.container
+{
+background:#3A3748;
+height:400px;
+width:1540px;
+}
+.footer-group{
+    padding-top:20px;
+    margin-left:180px;
+    
+
+}
+.footer-group.ui.input{
+    margin-left:10px;
+}
+
+ h4.ui.header {
+    margin-top: 40px;
+}
+.ui.sub.header {
+    margin-top: 50px;
+    max-width: 400px;
+    padding-top:0px;
+}
+facebook icon{
+    background:white;}
+
+
+.ui.input {
+   
+    margin-top: -20px;
+    margin-left: 750px;
+    max-width: 350px;
+}
+.group-of-seals{
+    margin-top:150px;
+    margin-left:550px;
+}
+.group-of-social-icons{
+    margin-top:-55px;
+    margin-left:950px;
+    margin-right:10px;
+}
+.ui.image4{
+    margin-right:10px;
+}
