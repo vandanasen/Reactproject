@@ -1,5 +1,6 @@
 import React,{Fragment} from 'react';
 import homepageimage from '../images/homepageimage.png';
+import rectangle758 from '../images/Rectangle-758.png';
 import Systematicchange from '../systematicchangeComponent/Systematicchange';
 
 
@@ -7,26 +8,21 @@ class Home extends React.Component{
     render() {
      return(  
         <Fragment>
-       
-        
-       
         <div className="ui containerpage">
-        <img className="ui center aligned bannerimage" src={homepageimage} alt="not found"/>
+            <img className="ui bannerimage" src={homepageimage} alt="not found"/>
         
-        <div>
+        </div>
+        <br></br>
+        
         <div className="ui containergreypage">
-        <div className="sub heading">
-        Program Locations 
-        </div>
-            
+            <p>Program Locations </p> 
+            <img className="ui image" src={rectangle758} alt="not found"/>
         </div>
         
-            
-        <Systematicchange/>
-        </div>
+         <div className="ui cointainerpage">
+         <Systematicchange/>
+         </div>   
         
-        
-        </div>
         
         
         

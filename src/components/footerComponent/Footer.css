@@ -16,14 +16,23 @@ width:1540px;
 
  h4.ui.header {
     margin-top: 40px;
+    
 }
 .ui.sub.header {
     margin-top: 50px;
     max-width: 400px;
     padding-top:0px;
+    text-transform: none;
 }
-facebook icon{
-    background:white;}
+.ui.sub.header1 {
+    margin-top: 130px;
+    margin-left:-370px;
+    
+    padding-top:0px;
+    text-transform:none;
+    color: white;
+}
+
 
 
 .ui.input {
@@ -33,7 +42,7 @@ facebook icon{
     max-width: 350px;
 }
 .group-of-seals{
-    margin-top:150px;
+    margin-top:-105px;
     margin-left:550px;
 }
 .group-of-social-icons{
@@ -43,4 +52,9 @@ facebook icon{
 }
 .ui.image4{
     margin-right:10px;
+}
+.ui.secondary.vertical.menu>.item{
+    color: white;
+    margin-top:-15px; 
+    margin-left:180px;
 }

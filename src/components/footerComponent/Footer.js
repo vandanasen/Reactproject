@@ -7,6 +7,7 @@ import instagramicon from '../images/instagramicon.png';
 import youtubeicon from '../images/youtubeicon.png';
 import twittericon from '../images/twittericon.png';
 import linkedinicon from '../images/linkedinicon.png';
+import{Link} from 'react-router-dom';
 
 import  './Footer.css';
 
@@ -33,11 +34,22 @@ class Footer extends React.Component{
          </div>
 
     </div>
-         
+    <br></br>
+    <div className="ui secondary vertical menu">
+    <div className="header item">About</div>
+ 
+  <Link className="item" to="/About">About</Link>
+  <Link className="item" to="/About">OurTeam</Link>
+  <Link className="item" to="/About">Blog</Link>
+ 
+  
+</div>
+
          <div className="group-of-seals">
+         <h6 className="ui sub header1">We Connect The Dots, Inc. is a 501(c)(3) not-for-profit organization. </h6>
          <img className="ui tiny image1" src={Sealoftrans} alt="not found"/>
-         <img className="ui image2" src={Globalgiving} alt="not found"/>
-         <img className="ui image3" src={Nebulaacademy} alt="not found"/>  
+         <img className="ui tiny image2" src={Globalgiving} alt="not found"/>
+         <img className="ui tiny image3" src={Nebulaacademy} alt="not found"/>  
          
         
          </div>
