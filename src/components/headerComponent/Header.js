@@ -15,7 +15,7 @@ class Header extends React.Component{
         <div className="ui secondary pointing menu">
            <img className="ui left aligned small image" src={WCTDlogo} alt="not found"/>
 
-           <Link className="item" to="/About">ABOUT</Link>
+           <Link className="item" to="/About">ABOUT uuuuuus</Link>
            <Link className="item" to="/News">NEWS</Link>
            <Link className="item" to="/Programs">PROGRAMS</Link>
            <Link className="item" to="/Supportus">SUPPORT US</Link>
